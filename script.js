@@ -26,7 +26,6 @@ lightbox.addEventListener("click", () => {
 
 });
 
-
 // ====================
 // hamburger menu
 // ====================
