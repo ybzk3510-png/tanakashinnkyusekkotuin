@@ -31,7 +31,21 @@ lightbox.addEventListener("click", () => {
 // hamburger menu
 // ====================
 
-// 後で追加
+const hamburger = document.getElementById("hamburger");
+const nav = document.querySelector(".nav");
+
+hamburger.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
+
+const navLinks = document.querySelectorAll(".nav a");
+
+navLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    nav.classList.remove("active");
+  });
+});
+
 
 const faqQuestions = document.querySelectorAll(".faq-question");
 
@@ -47,3 +61,20 @@ faqQuestions.forEach((question) => {
 
 });
 
+const fadeItems = document.querySelectorAll(".fade-in");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+
+  });
+}, {
+  threshold: 0.2
+});
+
+fadeItems.forEach((item) => {
+  observer.observe(item);
+});
