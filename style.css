@@ -410,6 +410,52 @@ iframe {
   font-size: 0.95rem;
 }
 
+
+/* =========================
+    director
+========================= */
+
+.director-box {
+  max-width: 800px;
+  margin: 0 auto;
+
+  background: white;
+  padding: 40px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.director-box h3 {
+  color: #2f8f7a;
+  margin-bottom: 15px;
+}
+
+.director-box p {
+  margin-bottom: 15px;
+}
+
+.director-box p:last-child {
+  margin-bottom: 0;
+}
+
+.license-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+  margin-top: 40px;
+}
+
+.license-grid img {
+  width: 100%;
+  border-radius: 10px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+
 /* =========================
     faq
 ========================= */
@@ -500,6 +546,20 @@ iframe {
 .copyright {
   font-size: 0.9rem;
   color: #888;
+}
+
+.footer-instagram {
+  margin-bottom: 20px;
+}
+
+.footer-instagram a {
+  color: #2f8f7a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.footer-instagram a:hover {
+  opacity: 0.8;
 }
 
 /* =========================
@@ -609,6 +669,10 @@ iframe {
   .time-table td {
     padding: 12px;
     font-size: 0.9rem;
+  }
+
+  .license-grid {
+    grid-template-columns: 1fr;
   }
 
 }
