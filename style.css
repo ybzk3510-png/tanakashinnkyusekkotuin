@@ -416,7 +416,7 @@ iframe {
 ========================= */
 
 .director-box {
-  max-width: 800px;
+  max-width: 950px;
   margin: 0 auto;
 
   background: white;
@@ -433,11 +433,21 @@ iframe {
 }
 
 .director-box p {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  line-height: 2;
+
 }
 
 .director-box p:last-child {
   margin-bottom: 0;
+}
+
+.director-quote {
+  color: #2f8f7a;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0;
 }
 
 .license-grid {
