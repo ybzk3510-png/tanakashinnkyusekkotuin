@@ -447,6 +447,9 @@ iframe {
   font-weight: bold;
   text-align: center;
   margin: 30px 0;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  padding: 15px 0;
 }
 
 .license-grid {
@@ -724,17 +727,17 @@ iframe {
   }
 
   .director-box {
-  padding: 28px;
+  padding: 24px;
 }
 
 .director-box p {
   font-size: 0.85rem;
-  line-height: 1.9;
+  line-height: 1.7;
   margin-bottom: 18px;
 }
 
 .director-box h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .director-quote {
