@@ -649,7 +649,7 @@ iframe {
   width: 100%;
   }
   .hero-title {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 
   .hero-buttons {
@@ -658,6 +658,10 @@ iframe {
 
   .btn {
     text-align: center;
+  }
+
+  .access-info p{
+    word-break: keep-all;
   }
 
   .worries-grid,
@@ -683,5 +687,60 @@ iframe {
   .license-grid {
     grid-template-columns: 1fr;
   }
+
+  .section-heading {
+    margin-bottom: 35px;
+  }
+
+  .section-text {
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+
+  .worry-card {
+    padding: 26px 20px;
+  }
+
+  .worries-grid {
+    gap: 18px;
+  }
+
+  .about-card {
+    padding: 30px;
+  }
+
+  .about-card h3 {
+    margin-bottom: 12px;
+  }
+
+  .about-card p {
+    line-height: 1.8;
+    font-size: 0.9rem;
+  }
+  
+  .parking-text {
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+
+  .director-box {
+  padding: 28px;
+}
+
+.director-box p {
+  font-size: 0.85rem;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+.director-box h3 {
+  font-size: 1.5rem;
+}
+
+.director-quote {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
 
 }
