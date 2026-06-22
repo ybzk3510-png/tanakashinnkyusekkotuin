@@ -467,6 +467,16 @@ iframe {
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
 
+.director-license {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+
+.director-license span:not(:last-child)::after {
+  content: "・";
+  margin-left: 12px;
+}
 
 /* =========================
     faq
@@ -727,23 +737,35 @@ iframe {
   }
 
   .director-box {
-  padding: 24px;
-}
+    padding: 24px;
+  }
 
-.director-box p {
-  font-size: 0.85rem;
-  line-height: 1.7;
-  margin-bottom: 18px;
-}
+  .director-box p {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    margin-bottom: 18px;
+  }
 
-.director-box h3 {
-  font-size: 1.3rem;
-}
+  .director-box h3 {
+    font-size: 1.3rem;
+  }
 
-.director-quote {
-  font-size: 0.9rem;
-  font-weight: bold;
-  margin: 20px 0;
-}
+
+  .director-box p.director-quote {
+    font-size: 1.0rem;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+
+  .director-license {
+    display: block;
+    line-height: 1.8;
+  }
+
+  .director-license span {
+    display: inline;
+  }
+
+
 
 }
